@@ -60,7 +60,7 @@ const Admissions = () => (
       <Row className="justify-content-center">
         <Col md={8} className="text-center">
           <embed src={ApplicationForm} type="application/pdf" width="100%" height="600px" />
-          <Button variant="primary" href="../assets/images/admission-form.pdf" download className="mt-3">Download Admission Form</Button>
+          <Button variant="primary" href={ApplicationForm} download className="mt-3">Download Admission Form</Button>
         </Col>
       </Row>
     </BContainer>
