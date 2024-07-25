@@ -1,0 +1,15 @@
+/* src/components/Navbar.css */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+  
+  .button-contact {
+    font-size: 1.1rem;
+  }
+  
