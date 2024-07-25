@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.navbar-button {
+  margin-left: 8px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer-list {
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+  .navbar-toolbar {
+    flex-direction: column;
+  }
+  .navbar-button {
+    margin: 4px 0;
+  }
+}
