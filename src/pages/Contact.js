@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from '../components/ContactForm';
 import GoogleMap from '../components/GoogleMap';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../App.css';
@@ -21,6 +20,7 @@ const Contact = () => (
           {/* Embed Typeform here */}
           <div className="typeform-container">
             <iframe
+              title="Contact Form"
               src="https://s23j1xzqf8z.typeform.com/to/DwawdmFm" // Replace with your Typeform URL
               width="100%"
               height="500"
