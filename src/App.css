@@ -64,3 +64,15 @@
     margin: 4px 0;
   }
 }
+
+.contact-us-page {
+  padding: 20px;
+}
+
+.typeform-container {
+  margin-top: 20px;
+}
+
+iframe {
+  border: none;
+}
