@@ -30,7 +30,7 @@ Follow these steps to set up and run the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/springdale-school-website.git
+   git clone https://github.com/yash000/springdale-school-website.git
    ```
 
 2. **Navigate to the Project Directory**
@@ -88,9 +88,10 @@ Feel free to contribute to this project! To report issues or suggest improvement
 
 - [React](https://reactjs.org/) – A JavaScript library for building user interfaces.
 - [React-Bootstrap](https://react-bootstrap.github.io/) – Bootstrap components for React.
+- [Material UI](https://mui.com/material-ui/) – Material UI components for React.
 - [Typeform](https://www.typeform.com/) – Online form building tool.
 - [Zapier](https://zapier.com/) – Automation tool for integrating web applications.
-- [Stitches](https://stitches.dev/) – CSS-in-JS library for styling.
+
 
 ## Contact
 
