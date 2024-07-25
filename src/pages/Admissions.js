@@ -6,6 +6,8 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { Container as BContainer, Row, Col, Button } from 'react-bootstrap';
+import ApplicationForm from '../assets/images/admission-form.pdf';
 
 const Admissions = () => (
   <Container>
@@ -53,6 +55,15 @@ const Admissions = () => (
         </CardContent>
       </Card>
     </Box>
+    <BContainer className="my-5">
+      <h2 className="text-center mb-4">Admissions</h2>
+      <Row className="justify-content-center">
+        <Col md={8} className="text-center">
+          <embed src={ApplicationForm} type="application/pdf" width="100%" height="600px" />
+          <Button variant="primary" href="../assets/images/admission-form.pdf" download className="mt-3">Download Admission Form</Button>
+        </Col>
+      </Row>
+    </BContainer>
   </Container>
 );
 
