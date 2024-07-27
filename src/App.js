@@ -10,10 +10,13 @@ import Faculty from './pages/Faculty';
 import Students from './pages/Students';
 import GalleryPage from './pages/GalleryPage';
 import Contact from './pages/Contact';
+import Footer from './components/Footer'
+import './App.css'
 
 const App = () => (
   <Router>
     <CustomNavbar/>
+    <div className="main-content">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -24,6 +27,8 @@ const App = () => (
       <Route path="/gallery" element={<GalleryPage />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    </div>
+    <Footer/>
   </Router>
 );
 
